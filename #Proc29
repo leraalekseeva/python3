@@ -1,0 +1,9 @@
+def DigitCount(K):
+ c=0
+ while K>0:
+     c=c+1 
+     K=K//10
+ return (c)
+print (DigitCount(12345))
+print (DigitCount(838388))
+print (DigitCount(333))
