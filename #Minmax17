@@ -1,0 +1,11 @@
+N=int(input())
+a=[]
+i=0
+for i in range (N):
+    a.append(int(input()))
+m=-1
+for i in range (N):
+    if a[i]>=m:
+        m=a[i]
+        b=i
+print(N-b-1)
