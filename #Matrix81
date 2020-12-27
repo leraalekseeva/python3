@@ -1,0 +1,12 @@
+M=int(input())
+a=[]
+k=0                           
+for i in range(M):                #заполнение матрицы
+    a.append([])
+    for j in range(M):
+       a[i].append(int(input()))
+for i in range(M):               
+    for j in range(M):
+      if i+j==M+1:              #взаимосвязь индексов и порядка матрицы
+          k+=a[i][j]
+print(k/M)
