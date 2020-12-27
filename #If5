@@ -1,0 +1,19 @@
+a=int(input())
+b=int(input())
+c=int(input())
+p=0
+o=0
+if a>0:
+    p=p+1 
+elif a<0:
+    o=o+1
+if b>0:
+    p=p+1 
+elif b<0:
+    o=o+1 
+if c>0:
+    p=p+1 
+elif c<0:
+    o=o+1
+print('положительных:',p)
+print('отрицательных:',o)
