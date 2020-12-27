@@ -1,0 +1,8 @@
+A=input()
+B=input()
+C=input()
+t=A
+A=B
+B=C
+C=t
+print(A,' ',B,' ',C)
